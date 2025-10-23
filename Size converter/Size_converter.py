@@ -39,3 +39,6 @@ def main():
         elif choice == 3:
             
         elif choice == 4:
+
+if __name__ == "__main__":
+    main()
