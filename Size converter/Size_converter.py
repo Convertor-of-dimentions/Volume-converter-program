@@ -10,3 +10,10 @@ print("-----------------------------------------------")
 
 choice = input(">> Choose an option (0-4): ").strip()
 
+       
+print(">> ERR . . . Value must be positive and non-zero.")
+print(">> ERR . . . Please enter only a number.")
+print(">> ERR . . . Invalid option. Try again.")
+
+
+    
