@@ -1,32 +1,44 @@
-print("=========== VOLUME CONVERTER SYSTEM ===========")
-print("-----------------------------------------------")
-print(">> 1 - Convert liters -> milliliters.")
-print(">> 2 - Convert milliliters -> liters.")
-print(">> 3 - Convert liters -> cubic meters.")
-print(">> 4 - Convert cubic meters -> liters.")
-print(">> 0 - EXIT.")
-print("-----------------------------------------------")
+def liters_to_milliliters(liters):
+    return liters * 1000
 
+def milliliters_to_liters(ml):
+    return ml / 1000
 
-choice = input(">> Choose an option (0-4): ").strip()
+def liters_to_cubic_meters(liters):
+    return liters / 1000
 
-       
-print(">> ERR . . . Value must be positive and non-zero.")
-print(">> ERR . . . Please enter only a number.")
-print(">> ERR . . . Invalid option. Try again.")
+def cubic_meters_to_liters(m3):
+    return m3 * 1000
 
+def main():
+  
+    while True:
 
-print("-----------------------------------------------")
-print(f">> {value} liters = {liters_to_milliliters(value):.2f} milliliters.")
-print("-----------------------------------------------")
-print(f">> {value} milliliters = {milliliters_to_liters(value):.3f} liters.")
-print("-----------------------------------------------")
-print(f">> {value} liters = {liters_to_cubic_meters(value):.3f} cubic meters.")
-print("-----------------------------------------------")
-print(f">> {value} cubic meters = {cubic_meters_to_liters(value):.1f} liters.")
-print("-----------------------------------------------")
+        if not choice.isdigit() or int(choice) not in range(0, 5):
+           
+            continue
 
-     
-print(">> Bye-bye . . .")
-print("-----------------------------------------------")
-print("===============================================")
+        choice = int(choice)
+        if choice == 0:
+
+            break
+        try:
+
+            if value <= 0:
+               
+                continue
+
+        except ValueError:
+          
+            continue
+
+        if choice == 1:
+          
+        elif choice == 2:
+          
+        elif choice == 3:
+            
+        elif choice == 4:
+
+if __name__ == "__main__":
+    main()
