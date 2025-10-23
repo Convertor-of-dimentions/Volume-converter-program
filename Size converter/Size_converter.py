@@ -3,3 +3,6 @@ def liters_to_milliliters(liters):
 
 def milliliters_to_liters(ml):
     return ml / 1000
+
+def liters_to_cubic_meters(liters):
+    return liters / 1000
