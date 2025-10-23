@@ -6,3 +6,7 @@ print(">> 3 - Convert liters -> cubic meters.")
 print(">> 4 - Convert cubic meters -> liters.")
 print(">> 0 - EXIT.")
 print("-----------------------------------------------")
+
+
+choice = input(">> Choose an option (0-4): ").strip()
+
